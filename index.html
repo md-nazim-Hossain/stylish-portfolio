@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Portfolio</title>
+    <!-- custom css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- bootstrap css cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/ce38c7c0ae.js" crossorigin="anonymous"></script>
+    <style>
+        header{
+            width: 100%;
+            background-image: url('images/bg-masthead.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+        .next-web{
+            width: 100%;
+            background-image: url('images/bg-callout.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 15rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header" id="home">
+        <div class="menu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-h" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+            </svg>
+        </div>
+        <div class="container text-center px-4 d-flex justify-content-center align-items-center">
+            <div>
+                <h1 class="header-title">Stylish Portfolio</h1>
+                <h3 class="header-sub-title">A Free Bootstrap Theme by Start Bootstrap</h3>
+                <a class="button header-btn-bg-color" href="#findMe">Find Out More</a>
+            </div>
+        </div>
+
+        <!-- offcanvas section -->
+        <section class="bg">
+            <div class="offcanvas offcanvas-end offcanvas-bg offcanvas-width" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header bg">
+                    <h5 id="offcanvasRightLabel" class="text-white mt-2">Start Bootstrap</h5>
+                    <div class="menu" data-bs-dismiss="offcanvas" aria-label="Close">
+                        <button type="button" class="btn text-white mt-1">X</button>
+                    </div>
+                </div>
+                <div class="offcanvas-body p-0">
+                    <ul class="p-0">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#findMe">About</a></li>
+                        <li><a href="#weOffer">Service</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- start of main section -->
+    <main>
+        <section class="container text-center px-4 common-padding d-flex justify-content-center align-items-center" id="findMe">
+            <div>
+                <h2 class="main-title">Stylish Portfolio is the perfect theme for your next project!</h2>
+                <p class="main-paragraph">This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at <a href=""> Unsplash !</a></p>
+                <a href="#weOffer" class="button main-top-btn-bg">What We Offer</a>
+            </div>
+        </section>
+
+    <!-- service section -->
+    <section class="main-content common-padding" id="weOffer">
+        <div class="container px-4">
+            <div class="service-heading text-center">
+                <h3 class="service-tag">SERVICES</h3>
+                <h2 class="service-title mb-5 text-white">What We Offer</h2>
+            </div>
+            <div class="row row-cols-1 row-cols-md-4 gx-4">
+                <div class="col mb-4">
+                    <div>
+                        <span class="service-icon mx-auto mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                            </svg>
+                        </span>
+                        <h4 class="icon-title text-white text-center mb-2">Responsive</h4>
+                        <p class="text-center icon-para">Looks great on any screen size!</p>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div>
+                        <span class="service-icon mx-auto mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                              </svg>
+                        </span>
+                        <h4 class="icon-title text-white text-center mb-2">Redesigned</h4>
+                        <p class="text-center icon-para">Freshly redesigned for Bootstrap.5</p>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div>
+                        <span class="service-icon mx-auto mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" />
+                            </svg>
+                        </span>
+                        <h4 class="icon-title text-white text-center mb-2">Favorited</h4>
+                        <p class="text-center icon-para">Millions of users Start Bootstrap!</p>
+                    </div>
+                </div>
+               <div class="col">
+                    <div>
+                        <span class="service-icon mx-auto mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                            </svg>
+                         </span>
+                        <h4 class="icon-title text-white text-center mb-2">Question</h4>
+                        <p class="text-center icon-para">I mustache you a question...</p>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- welcome to next website section -->
+        <section class="next-web d-flex justify-content-center align-items-center">
+            <div class="container px-4">
+                <h1 class="text-center next-title text-center mx-auto">Welcome to your next website!</h1>
+                <div class="mt-5 d-flex justify-content-center align-items-center">
+                    <a href="" class="button header-btn-bg-color">Download Now!</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- portfolio section -->
+        <section class="common-padding mb-5" id="portfolio">
+            <div class="portfolio-heading text-center pb-5">
+                <h3 class="portfolio-tag">PORTFOLIO</h3>
+                <h2 class="portfolio-title">Recent Projects</h2>
+            </div>
+            <div class="row row-cols-1 row-cols-2 w-75 mx-auto">
+                <div class="col mb-m-0 p-0 overflow-hidden position-relative">
+                    <a href="" class="portfolio-items">
+                        <div class="caption d-flex justify-content-start align-items-end">
+                            <div class="text-white caption-text">
+                                <h6>STATIONARY</h6>
+                                <p>A yellow pencil with envelopes on a clean,blue Backdrop!</p>
+                            </div>
+                        </div>
+                        <img src="images/portfolio-1.jpg" class="hover img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col mb-m-0 p-0 overflow-hidden position-relative ">
+                    <a href="" class="">
+                        <div class="caption d-flex justify-content-start align-items-end">
+                            <div class="text-white caption-text">
+                                <h6>ICE CREAM</h6>
+                                <p>A dark blue background with a colored pencil,a clip, and a tiny ice cream</p>
+                            </div>
+                        </div>
+                        <img src="images/portfolio-2.jpg" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col mb-m-0 p-0 overflow-hidden position-relative ">
+                    <a href="" class="">
+                        <div class="caption d-flex justify-content-start align-items-end">
+                            <div class="text-white caption-text">
+                                <h6>STRAWBERRIES</h6>
+                                <p>Strwaberries are such a very tasty snacks,especially with alittle sugar on top</p>
+                            </div>
+                        </div>
+                        <img src="images/portfolio-3.jpg" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col mb-m-0 p-0 overflow-hidden position-relative">
+                    <a href="" class="">
+                        <div class="caption d-flex justify-content-start align-items-end">
+                            <div class="text-white caption-text">
+                                <h6>WORKSPACE</h6>
+                                <p>A yellow workspace with some scissors,a pencil,and other objects</p>
+                            </div>
+                        </div>
+                        <img src="images/portfolio-4.jpg" class="img-fluid" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- button section -->
+        <section class="common-padding bg-color d-flex justify-content-center align-items-center ">
+            <div class="px-4">
+                <h1 class="text-white text-center mb-5">The buttons below are impossible to resist...</h1>
+                <div class="d-flex justify-content-center align-items-center">
+                    <a href="" class="button btn-light text-dark">Click Me!</a>
+                    <a href="" class="button main-top-btn-bg">Look at Me!</a>
+                </div>
+            </div>
+        </section>
+        <!-- map section -->
+        <section id="contact">
+            <div class="map">
+                <iframe src="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&aq=0&oq=twitter&sll=28.659344,-81.187888&sspn=0.128789,0.264187&ie=UTF8&hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&t=m&z=15&iwloc=A&output=embed" frameborder="0" class="w-100 h-100"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer part -->
+    <footer class="common-padding">
+       <div class="text-center">
+            <div>
+                <i class="fas fa-facebook"></i>
+            </div>
+            <small class="text-muted">Copyright&copy;Your Website 2021</small>
+       </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

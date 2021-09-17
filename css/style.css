@@ -1,0 +1,189 @@
+/* common css */
+body{
+    overflow-x: hidden;
+}
+.button{
+    padding: 1.25rem 2.5rem;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 20px 10px;
+    color: white;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.common-padding{
+    padding: 7.5rem 0;
+}
+.text-white{
+    color: white;
+}
+/* header part css */
+.header{
+    padding: 128px 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.menu{
+    background-color: rgba(52, 58, 64, 0.5);
+    color: white;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+.menu:hover{
+    background-color: #343a40;
+}
+.w-h{
+    width: 20px;
+    height: 20px;
+    transform: translateY(50%);
+}
+.header-title{
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0%;
+}
+.header-sub-title{
+    font-style: italic;
+    margin-top: 1rem;
+    padding-bottom: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+.header-btn-bg-color{
+    background-color: #1D809F;
+}
+.header-btn-bg-color:hover{
+    background-color: #17667f;
+    color: white;
+}
+/* offcanvas */
+.offcanvas-width{
+    width: 250px !important;
+}
+.offcanvas-bg{
+    background-color: #1d809f !important;
+}
+.bg{
+   background: rgba(52, 58, 64, 0.1);;
+}
+ul li{
+    width: 100%;
+    list-style: none;
+    font-size: 1.2rem;
+    padding: 15px 0;
+    padding-left: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li:hover{
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+ul li:hover a{
+    color: white;
+}
+/* start main section css */
+.main-title{
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.main-paragraph{
+    margin-bottom: 3rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.main-top-btn-bg{
+    background-color: #212529;
+}
+.main-top-btn-bg:hover{
+    color: white;
+    background-color: #212535;
+}
+/* service section */
+.main-content{
+    background-color:#1d809f;
+}
+.service-tag,.portfolio-tag{
+    font-size: 1rem;
+    margin-bottom: 0px;
+    color:#ecb807;
+}
+.service-title,.portfolio-title{
+    font-weight: 700;
+    font-size: 50px;
+}
+.service-icon{
+    background-color: white;
+    color: #1D809F;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    box-shadow: 0 3px 3px 0 rgb(0 0 0 / 10%);
+    display: block;
+    font-size: 2.25rem;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    transform: translate(60%,50%);
+}
+.icon-title{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.icon-para{
+    color: rgba(255, 255, 255, 0.7);;
+}
+ /* next section css */
+ .next-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    max-width: 30rem;
+ }
+
+ /* portfolio section css */
+ .portfolio-items{
+     position: relative;
+     overflow: hidden;
+     display: block;
+ }
+ .caption{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 37, 41, 0.2);
+    position: absolute;
+    padding: 50px;
+    padding-top: 0px;
+ }
+.caption-text{
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 0px;
+    transition: 0.5s ease-in;
+}
+/* button section css */
+.bg-color{
+    background-color: #1d809f;
+}
+/* map section css */
+.map{
+    width: 100%;
+    height: 75vh;
+}
+
+@media screen and (max-width:562px) {
+    body{
+        overflow-x: hidden;
+    }
+}
